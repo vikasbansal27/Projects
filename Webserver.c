@@ -1,4 +1,5 @@
-/* This is a HTTP web server. Having a client and a host. File types such as html page, image (gif, jpg, jpeg and png), zip, tar and text. */
+/* This is a HTTP web server. Having a client and a host. File types such as html page, image (gif, jpg, jpeg and png),
+zip, tar and text. */
  
 #include<sys/types.h>      
 #include<sys/socket.h>      
