@@ -1,6 +1,6 @@
 /* This database is implemeted usign structures. A node contains an employee number, his/her age, salary, name and address.
 It provides functions such as sorting on basis of employee number, list of 5 figures salary employee, avg salary of an 
-employeea and details of employee. */
+employee and details of employee. */
 
 
 #include<stdio.h>
