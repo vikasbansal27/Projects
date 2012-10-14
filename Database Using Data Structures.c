@@ -1,4 +1,4 @@
-/* This database is implemeted usign structures. A node contains an employee number, his/her age, salary, name and address.
+/* This database is implemeted using structures. A node contains an employee number, his/her age, salary, name and address.
 It provides functions such as sorting on basis of employee number, list of 5 figures salary employee, avg salary of an 
 employee and details of employee. */
 
@@ -31,20 +31,12 @@ int main()
 		scanf("%d",&(x[i].en));
 		printf("\nGive %d employe name\n",i+1);
 		scanf("%s",x[i].name);
-	    printf("\nGive %d employe age\n",i+1);
+	        printf("\nGive %d employe age\n",i+1);
 		scanf("%f",&(x[i].age));
 		printf("\nGive %d employe address\n",i+1);
-    	scanf("%s",x[i].addr);
+    	        scanf("%s",x[i].addr);
 		printf("\nGive %d employe salary\n",i+1);
 		scanf("%f",&(x[i].sal));
-	}
-				for(i=0;i<n;i++)
-	{
-		printf("Employee number %d\n",x[i].en);
-		printf("Age %f\n",x[i].age);
-		printf("Salary %f\n",x[i].sal);
-		printf("Name %s\n",x[i].name);
-		printf("Address %s\n\n",x[i].addr);
 	}
 	menu(x,n);
 
