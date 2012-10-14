@@ -27,15 +27,15 @@ int main()
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
-		printf("\nGive %d employe number\n",i+1);
+		printf("\nGive %d employee number\n",i+1);
 		scanf("%d",&(x[i].en));
-		printf("\nGive %d employe name\n",i+1);
+		printf("\nGive %d employee name\n",i+1);
 		scanf("%s",x[i].name);
-	        printf("\nGive %d employe age\n",i+1);
+	        printf("\nGive %d employee age\n",i+1);
 		scanf("%f",&(x[i].age));
-		printf("\nGive %d employe address\n",i+1);
+		printf("\nGive %d employee address\n",i+1);
     	        scanf("%s",x[i].addr);
-		printf("\nGive %d employe salary\n",i+1);
+		printf("\nGive %d employee salary\n",i+1);
 		scanf("%f",&(x[i].sal));
 	}
 	menu(x,n);
